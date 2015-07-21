@@ -53,17 +53,13 @@
             <kind>1</kind>
             <string>//Comprueba si esta vivo
 if(global.dead==0){
-    if(global.start==1){//Comprueba si se ha pulsado la pantalla
+    if(global.stmov==1){//Comprueba si se ha pulsado la pantalla
         ///Crear pipes
-        if(global.score&gt;=21){
-            if(obj_pipe_right.x&gt;=384){ xpipel=irandom_range(0,-154);}//comprueba la posicion de las pipes
-            if(obj_pipe_left.x+325&lt;=96){ xpipel=irandom_range(-96,-250);}
-            else { xpipel=irandom_range(0,-250);}
-        } else{ xpipel=irandom_range(0,-250);}
+        xpipel=irandom_range(0,-250);
         y=0;
         instance_create(xpipel,y,obj_pipe_left);
         instance_create(xpipel+425,y,obj_pipe_right);
-        z= (5*48)/global.pspeed
+        z= (5*48)/global.pspeed//tiempo  de creacion entre cada pipe
         alarm[0] = z;
     } else{
         alarm[0]=10;

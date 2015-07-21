@@ -61,9 +61,6 @@
     if(global.score==28){
         global.pspeed=8;
     }
-    if(global.score==35){
-        global.pspeed=9;
-    }
 } else{
     exit;
 }
