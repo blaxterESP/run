@@ -156,8 +156,8 @@
     <instance objName="obj_wall" x="224" y="704" name="inst_C3C16D72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="256" y="704" name="inst_D7294428" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="288" y="704" name="inst_6FCA0C66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_table" x="96" y="224" name="inst_4E3BC589" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_draw_score" x="224" y="224" name="inst_0F9B2C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_table" x="128" y="224" name="inst_4E3BC589" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_draw_score" x="256" y="224" name="inst_0F9B2C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_play" x="160" y="384" name="inst_FEE94F39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_marcador" x="320" y="384" name="inst_05DD4EC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_return_menu" x="0" y="64" name="inst_18CD5D05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
