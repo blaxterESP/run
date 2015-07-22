@@ -69,7 +69,7 @@ ini_close()
 else{
 global.score=0;
 global.highscore=0;
-global.colorcm=1;
+global.colorcm=0;
 global.sound=true;
 global.vibrate=true;
 global.ajustset=0;

@@ -68,6 +68,7 @@
       <sprite>sprites\spr_score_new</sprite>
       <sprite>sprites\spr_new_Score</sprite>
       <sprite>sprites\spr_game_over</sprite>
+      <sprite>sprites\sprite37</sprite>
       <sprite>sprites\spr_return</sprite>
     </sprites>
     <sprites name="menu">
@@ -76,6 +77,9 @@
       <sprite>sprites\spr_rate</sprite>
       <sprite>sprites\spr_sound</sprite>
       <sprite>sprites\spr_vibrate</sprite>
+      <sprite>sprites\spr_tap</sprite>
+      <sprite>sprites\spr_tap_izq</sprite>
+      <sprite>sprites\spr_hand</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -106,12 +110,12 @@
       <object>objects\obj_pspeed</object>
       <object>objects\obj_shake</object>
       <object>objects\obj_init_ajustes</object>
+      <object>objects\obj_color_ajust</object>
     </objects>
     <objects name="score">
       <object>objects\obj_points</object>
       <object>objects\obj_table</object>
       <object>objects\obj_table_new_score</object>
-      <object>objects\obj_gameover</object>
       <object>objects\obj_draw_score</object>
       <object>objects\obj_game_over</object>
     </objects>
@@ -128,6 +132,9 @@
       <object>objects\obj_sound</object>
       <object>objects\obj_vibrate</object>
       <object>objects\obj_return_menu</object>
+      <object>objects\obj_tap</object>
+      <object>objects\obj_tap_izq</object>
+      <object>objects\obj_hand</object>
     </objects>
   </objects>
   <rooms name="rooms">
