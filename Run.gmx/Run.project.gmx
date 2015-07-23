@@ -61,6 +61,7 @@
       <sprite>sprites\spr_pipe_drch</sprite>
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\sprite7</sprite>
+      <sprite>sprites\spr_piso</sprite>
       <sprite>sprites\spr_viga</sprite>
     </sprites>
     <sprites name="menu dead">
@@ -103,6 +104,7 @@
       <object>objects\obj_pipe_right</object>
       <object>objects\obj_wall</object>
       <object>objects\obj_stop</object>
+      <object>objects\obj_piso</object>
     </objects>
     <objects name="info">
       <object>objects\obj_control</object>
