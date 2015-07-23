@@ -31,9 +31,6 @@
 if(global.score&gt;=14){
     alarm[0]=6;
 }
-if(global.score&gt;=28){
-    alarm[0]=5;
-}
 </string>
           </argument>
         </arguments>

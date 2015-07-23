@@ -8,7 +8,7 @@
   <parentName>obj_pipe_left</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="obj_wall">
+    <event eventtype="4" ename="obj_piso">
       <action>
         <libid>1</libid>
         <id>203</id>

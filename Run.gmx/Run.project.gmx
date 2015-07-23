@@ -62,25 +62,26 @@
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\sprite7</sprite>
       <sprite>sprites\spr_piso</sprite>
-      <sprite>sprites\spr_viga</sprite>
+      <sprite>sprites\spr_piso_vibrate</sprite>
     </sprites>
     <sprites name="menu dead">
-      <sprite>sprites\spr_score</sprite>
-      <sprite>sprites\spr_score_new</sprite>
+      <sprite>sprites\spr_table_score</sprite>
       <sprite>sprites\spr_new_Score</sprite>
-      <sprite>sprites\spr_game_over</sprite>
-      <sprite>sprites\sprite37</sprite>
-      <sprite>sprites\spr_return</sprite>
+      <sprite>sprites\spr_gameover</sprite>
     </sprites>
     <sprites name="menu">
       <sprite>sprites\spr_play</sprite>
+      <sprite>sprites\spr_cajon</sprite>
       <sprite>sprites\spr_marcador</sprite>
       <sprite>sprites\spr_rate</sprite>
+      <sprite>sprites\spr_return</sprite>
       <sprite>sprites\spr_sound</sprite>
       <sprite>sprites\spr_vibrate</sprite>
-      <sprite>sprites\spr_tap</sprite>
-      <sprite>sprites\spr_tap_izq</sprite>
-      <sprite>sprites\spr_hand</sprite>
+      <sprites name="tap">
+        <sprite>sprites\spr_hand</sprite>
+        <sprite>sprites\spr_tap</sprite>
+        <sprite>sprites\spr_tap_izq</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -102,9 +103,9 @@
     <objects name="walls">
       <object>objects\obj_pipe_left</object>
       <object>objects\obj_pipe_right</object>
-      <object>objects\obj_wall</object>
       <object>objects\obj_stop</object>
       <object>objects\obj_piso</object>
+      <object>objects\obj_piso_vibrate</object>
     </objects>
     <objects name="info">
       <object>objects\obj_control</object>
@@ -117,7 +118,6 @@
     <objects name="score">
       <object>objects\obj_points</object>
       <object>objects\obj_table</object>
-      <object>objects\obj_table_new_score</object>
       <object>objects\obj_draw_score</object>
       <object>objects\obj_game_over</object>
     </objects>
