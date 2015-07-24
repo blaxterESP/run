@@ -96,7 +96,7 @@ alarm[0]=20;
           <argument>
             <kind>1</kind>
             <string>if(global.trans2=false){
-    exit;
+   url_open('https://www.facebook.com/blaxtergames');
 } else{
     exit;
 }
