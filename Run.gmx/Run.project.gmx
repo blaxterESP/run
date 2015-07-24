@@ -27,6 +27,7 @@
     <sound>sound\sound0_hit2</sound>
     <sound>sound\sound2_move</sound>
     <sound>sound\sound3_dead2</sound>
+    <sound>sound\sound3_click3</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
@@ -63,6 +64,7 @@
       <sprite>sprites\sprite7</sprite>
       <sprite>sprites\spr_piso</sprite>
       <sprite>sprites\spr_piso_vibrate</sprite>
+      <sprite>sprites\spr_colision</sprite>
     </sprites>
     <sprites name="menu dead">
       <sprite>sprites\spr_table_score</sprite>
@@ -75,12 +77,21 @@
       <sprite>sprites\spr_marcador</sprite>
       <sprite>sprites\spr_rate</sprite>
       <sprite>sprites\spr_return</sprite>
-      <sprite>sprites\spr_sound</sprite>
-      <sprite>sprites\spr_vibrate</sprite>
       <sprites name="tap">
         <sprite>sprites\spr_hand</sprite>
         <sprite>sprites\spr_tap</sprite>
         <sprite>sprites\spr_tap_izq</sprite>
+      </sprites>
+      <sprites name="ajustes">
+        <sprite>sprites\spr_sound</sprite>
+        <sprite>sprites\spr_vibrate</sprite>
+        <sprite>sprites\spr_ajustes</sprite>
+      </sprites>
+      <sprites name="redes sociales">
+        <sprite>sprites\spr_rsociales</sprite>
+        <sprite>sprites\spr_twitter</sprite>
+        <sprite>sprites\spr_facebook</sprite>
+        <sprite>sprites\spr_web</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -131,12 +142,21 @@
       <object>objects\obj_play</object>
       <object>objects\obj_marcador</object>
       <object>objects\obj_rate</object>
-      <object>objects\obj_sound</object>
-      <object>objects\obj_vibrate</object>
       <object>objects\obj_return_menu</object>
       <object>objects\obj_tap</object>
       <object>objects\obj_tap_izq</object>
       <object>objects\obj_hand</object>
+      <objects name="ajustes">
+        <object>objects\obj_ajustes</object>
+        <object>objects\obj_vibrate</object>
+        <object>objects\obj_sound</object>
+      </objects>
+      <objects name="redes sociales">
+        <object>objects\obj_rsociales</object>
+        <object>objects\obj_twitter</object>
+        <object>objects\obj_facebook</object>
+        <object>objects\obj_web</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">

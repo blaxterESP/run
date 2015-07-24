@@ -163,7 +163,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>y=y-5;
+            <string>if(global.sound=true){
+    audio_play_sound(sound3_click3,10,false);
+} else{ //Do nothing
+}
+y=y-5;
 alarm[0]=7;
 </string>
           </argument>

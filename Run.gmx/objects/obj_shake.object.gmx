@@ -84,8 +84,8 @@ instance_destroy();
 } else{
     //Do nothing
 }
-view_xview[0] = random_range(-5,5)//tiembla la pantalla
-view_yview[0] = random_range(-5,5)
+view_xview[0] = random_range(-7,7)//tiembla la pantalla
+view_yview[0] = random_range(-7,7)
 </string>
           </argument>
         </arguments>
