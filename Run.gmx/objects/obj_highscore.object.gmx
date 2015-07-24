@@ -25,43 +25,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0]=3;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>if (global.highscore &gt;= 10){
-            achievement_post_score("CgkIoJ7VkfAIEAIQBQ", global.highscore);
+        achievement_post("CgkIoJ7VkfAIEAIQBQ", 100);
 }
 if (global.highscore &gt;= 20){
-            achievement_post_score("CgkIoJ7VkfAIEAIQBg", global.highscore);
+        achievement_post("CgkIoJ7VkfAIEAIQBg", 100);
 }
 if (global.highscore &gt;= 40){
-            achievement_post_score("CgkIoJ7VkfAIEAIQBw", global.highscore);
+        achievement_post("CgkIoJ7VkfAIEAIQBw", 100);
 }
 if (global.highscore &gt;= 60){
-            achievement_post_score("CgkIoJ7VkfAIEAIQCA", global.highscore);
+        achievement_post("CgkIoJ7VkfAIEAIQCA", 100);
 }
 if (global.highscore &gt;= 100){
-            achievement_post_score("CgkIoJ7VkfAIEAIQCQ", global.highscore);
+        achievement_post("CgkIoJ7VkfAIEAIQCQ", 100);
 }
 </string>
           </argument>
