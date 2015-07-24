@@ -77,6 +77,7 @@
       <sprite>sprites\spr_marcador</sprite>
       <sprite>sprites\spr_rate</sprite>
       <sprite>sprites\spr_return</sprite>
+      <sprite>sprites\spr_logros</sprite>
       <sprites name="tap">
         <sprite>sprites\spr_hand</sprite>
         <sprite>sprites\spr_tap</sprite>
@@ -138,12 +139,15 @@
     </objects>
     <objects name="online">
       <object>objects\obj_online</object>
+      <object>objects\obj_gamesplayed</object>
+      <object>objects\obj_highscore</object>
     </objects>
     <objects name=" menu">
       <object>objects\obj_play</object>
       <object>objects\obj_marcador</object>
       <object>objects\obj_rate</object>
       <object>objects\obj_return_menu</object>
+      <object>objects\obj_logros</object>
       <object>objects\obj_tap</object>
       <object>objects\obj_tap_izq</object>
       <object>objects\obj_hand</object>

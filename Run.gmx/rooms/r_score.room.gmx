@@ -58,6 +58,7 @@
     <instance objName="obj_game_over" x="96" y="100" name="inst_3CFBD9A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso" x="0" y="512" name="inst_A2BBAE35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_return_menu" x="245" y="41" name="inst_D97017D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_highscore" x="432" y="48" name="inst_898D252B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

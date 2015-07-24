@@ -48,7 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.start=0;
+            <string>global.gamesplayed++;
+global.start=0;
 room_goto(r_play);
 </string>
           </argument>

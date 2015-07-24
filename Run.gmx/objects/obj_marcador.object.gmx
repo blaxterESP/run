@@ -48,7 +48,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>achievement_show_leaderboards();
+            <string>if os_is_network_connected(){
+    achievement_show_leaderboards();
+} else{
+    exit;
+}
 </string>
           </argument>
         </arguments>

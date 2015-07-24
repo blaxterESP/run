@@ -4,11 +4,11 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="7" enumb="5">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,21 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Sistema de Guardado .ini 
-ini_open("archivos.ini")
-ini_write_real('puntuacion','highscore',global.highscore)
-ini_write_real('ajustes','clorcm',global.colorcm)
-ini_write_real('ajustes','sound',global.sound)
-ini_write_real('ajustes','vibrate',global.vibrate)
-ini_write_real('ajustes','ajustset',global.ajustset)
-ini_write_real('logros','gamesplayed',global.gamesplayed)
-ini_close()
+            <string>alarm[0]=3;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="2">
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -56,26 +48,20 @@ ini_close()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Sistema de lector ini
-if file_exists('archivos.ini'){
-ini_open("archivos.ini")
-global.score=ini_read_real('puntuacion','score',0);
-global.highscore=ini_read_real('puntuacion','highscore',0);
-global.colorcm=ini_read_real('ajustes','colorcm',0);
-global.sound=ini_read_real('ajustes','sound',0);
-global.vibrate=ini_read_real('ajustes','vibrate',0);
-global.ajustset=ini_read_real('ajustes','ajustset',0);
-global.gamesplayed=ini_read_real('logros','gamesplayed',0);
-ini_close()
+            <string>if (global.highscore &gt;= 10){
+            achievement_post_score("CgkIoJ7VkfAIEAIQBQ", global.highscore);
 }
-else{
-global.score=0;
-global.highscore=0;
-global.colorcm=0;
-global.sound=true;
-global.vibrate=true;
-global.ajustset=0;
-global.gamesplayed=0;
+if (global.highscore &gt;= 20){
+            achievement_post_score("CgkIoJ7VkfAIEAIQBg", global.highscore);
+}
+if (global.highscore &gt;= 40){
+            achievement_post_score("CgkIoJ7VkfAIEAIQBw", global.highscore);
+}
+if (global.highscore &gt;= 60){
+            achievement_post_score("CgkIoJ7VkfAIEAIQCA", global.highscore);
+}
+if (global.highscore &gt;= 100){
+            achievement_post_score("CgkIoJ7VkfAIEAIQCQ", global.highscore);
 }
 </string>
           </argument>
