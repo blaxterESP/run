@@ -56,7 +56,7 @@
     <instance objName="obj_rate" x="174" y="334" name="inst_15379D59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso" x="1" y="512" name="inst_2EAC7225" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gamesplayed" x="16" y="16" name="inst_BD832612" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_logros" x="64" y="16" name="inst_B8A298E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_logros" x="229" y="586" name="inst_B8A298E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_titulo" x="104" y="152" name="inst_CD8A064C" locked="0" code="" scaleX="1.24311923980713" scaleY="1.18085110187531" colour="4294967295" rotation="0"/>
     <instance objName="obj_twitter" x="90" y="575" name="inst_B56D904F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_facebook" x="28" y="574" name="inst_37B6D836" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

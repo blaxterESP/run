@@ -22,7 +22,9 @@
       <filename>archivos.ini</filename>
     </datafile>
   </datafiles>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\GoogleMobileAdsExt</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sound>sound\sound0_hit2</sound>
     <sound>sound\sound2_move</sound>
@@ -148,6 +150,7 @@
       <object>objects\obj_marcador</object>
       <object>objects\obj_rate</object>
       <object>objects\obj_return_menu</object>
+      <object>objects\obj_titulo</object>
       <object>objects\obj_logros</object>
       <object>objects\obj_tap</object>
       <object>objects\obj_tap_izq</object>
@@ -164,7 +167,9 @@
         <object>objects\obj_web</object>
         <object>objects\obj_baius</object>
       </objects>
-      <object>objects\obj_titulo</object>
+    </objects>
+    <objects name="ads">
+      <object>objects\obj_init_banner</object>
     </objects>
   </objects>
   <rooms name="rooms">
