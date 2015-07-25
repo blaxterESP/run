@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,13 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>GoogleMobileAds_AddBannerAt(global.bannerId, GoogleMobileAds_MRect, 20, 20);
+            <string>GoogleMobileAds_AddBannerAt(global.bannerId, GoogleMobileAds_Banner,0,0);
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="2">
+    <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,9 +51,10 @@
             <string>if (os_type == os_android)
 {
     global.bannerId = "ca-app-pub-8899380989480220/8012503392";
+} else{
+    global.bannerId = "ca-app-pub-8899380989480220/8012503392";
 }
-
-alarm[0]=1;
+alarm[0]=30;
 </string>
           </argument>
         </arguments>
