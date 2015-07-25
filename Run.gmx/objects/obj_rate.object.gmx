@@ -3,7 +3,7 @@
   <spriteName>spr_rate</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -156,13 +156,34 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.sound=true){
+            <string>if(global.sound==true){
     audio_play_sound(sound3_click3,10,false);
-} else{ //Do nothing
+}else{ //Do nothing
 }
 y=y-5;
-alarm[0]=7;
+//alarm[0]=7;
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>322</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring>url_open(argument0);
+</codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>https://play.google.com/store/apps/details?id=com.Blaxter_Games.Dodge_Beams</string>
           </argument>
         </arguments>
       </action>

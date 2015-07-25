@@ -95,6 +95,7 @@
         <sprite>sprites\spr_web</sprite>
         <sprite>sprites\spr_baius</sprite>
       </sprites>
+      <sprite>sprites\spr_titulo</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -163,6 +164,7 @@
         <object>objects\obj_web</object>
         <object>objects\obj_baius</object>
       </objects>
+      <object>objects\obj_titulo</object>
     </objects>
   </objects>
   <rooms name="rooms">
